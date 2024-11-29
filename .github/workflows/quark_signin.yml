@@ -25,4 +25,4 @@ jobs:
         env:
           COOKIE_QUARK: ${{ secrets.COOKIE_QUARK }}
         run: |
-          python checkIn_VW.py
+          python sign_VW.py
