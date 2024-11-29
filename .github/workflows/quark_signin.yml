@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run Quark Sign-in
+      - name: Run VW Sign-in
         env:
           COOKIE_QUARK: ${{ secrets.COOKIE_QUARK }}
         run: |
-          python checkIn_Quark.py
+          python checkIn_VW.py
